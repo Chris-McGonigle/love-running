@@ -14,7 +14,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -32,7 +33,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -64,7 +66,9 @@ h1, h2 {
 
     position: relative;
 }
-#cover-text, #cover-text h2 {
+
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -86,6 +90,7 @@ h1, h2 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -225,7 +230,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -245,7 +250,7 @@ footer {
     column-gap: 0px;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -254,34 +259,42 @@ footer {
 /* For larger to medium screen size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    
+
     #club-ethos {
         width: 65%;
         height: 1200px;
-        margin: 0 auto;   
-     }
+        margin: 0 auto;
+    }
 
-     #welcome {
-         padding: 30px 0;
-         margin: 0;
-     }
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
 
-     #left-about, #right-about {
-         width: 100%;
-         float: left;
-         padding: 0;
-     }
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 
-     #center-about {
-         clear: both;
-         width: 100%;
-         float: left;
-         padding: 0;
-     }
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 
-     hr {
-         display: none;
-     }
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+    
+    hr {
+        display: none;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -306,18 +319,20 @@ footer {
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
-    .left-about-heading p, .right-about-heading p {
+
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
     }
-
 }
-
